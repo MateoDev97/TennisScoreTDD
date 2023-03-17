@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		493AF9F729C3956600C36E50 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AF9F629C3956600C36E50 /* main.swift */; };
+		49D0095B29C42728000EBB5E /* TennisScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D0095A29C42728000EBB5E /* TennisScoreTests.swift */; };
+		49D0096129C42836000EBB5E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AF9F629C3956600C36E50 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +27,19 @@
 /* Begin PBXFileReference section */
 		493AF9F329C3956600C36E50 /* TennisScore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TennisScore; sourceTree = BUILT_PRODUCTS_DIR; };
 		493AF9F629C3956600C36E50 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		49D0095829C42728000EBB5E /* TennisScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennisScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D0095A29C42728000EBB5E /* TennisScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisScoreTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		493AF9F029C3956600C36E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D0095529C42728000EBB5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				493AF9F529C3956600C36E50 /* TennisScore */,
+				49D0095929C42728000EBB5E /* TennisScoreTests */,
 				493AF9F429C3956600C36E50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				493AF9F329C3956600C36E50 /* TennisScore */,
+				49D0095829C42728000EBB5E /* TennisScoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +73,14 @@
 				493AF9F629C3956600C36E50 /* main.swift */,
 			);
 			path = TennisScore;
+			sourceTree = "<group>";
+		};
+		49D0095929C42728000EBB5E /* TennisScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				49D0095A29C42728000EBB5E /* TennisScoreTests.swift */,
+			);
+			path = TennisScoreTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +103,23 @@
 			productReference = 493AF9F329C3956600C36E50 /* TennisScore */;
 			productType = "com.apple.product-type.tool";
 		};
+		49D0095729C42728000EBB5E /* TennisScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D0095E29C42728000EBB5E /* Build configuration list for PBXNativeTarget "TennisScoreTests" */;
+			buildPhases = (
+				49D0095429C42728000EBB5E /* Sources */,
+				49D0095529C42728000EBB5E /* Frameworks */,
+				49D0095629C42728000EBB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TennisScoreTests;
+			productName = TennisScoreTests;
+			productReference = 49D0095829C42728000EBB5E /* TennisScoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +131,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					493AF9F229C3956600C36E50 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					49D0095729C42728000EBB5E = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -111,9 +152,20 @@
 			projectRoot = "";
 			targets = (
 				493AF9F229C3956600C36E50 /* TennisScore */,
+				49D0095729C42728000EBB5E /* TennisScoreTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49D0095629C42728000EBB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		493AF9EF29C3956600C36E50 /* Sources */ = {
@@ -121,6 +173,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				493AF9F729C3956600C36E50 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D0095429C42728000EBB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D0096129C42836000EBB5E /* main.swift in Sources */,
+				49D0095B29C42728000EBB5E /* TennisScoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +319,34 @@
 			};
 			name = Release;
 		};
+		49D0095C29C42728000EBB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mateo.dev.TennisScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		49D0095D29C42728000EBB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mateo.dev.TennisScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -275,6 +364,15 @@
 			buildConfigurations = (
 				493AF9FB29C3956600C36E50 /* Debug */,
 				493AF9FC29C3956600C36E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D0095E29C42728000EBB5E /* Build configuration list for PBXNativeTarget "TennisScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D0095C29C42728000EBB5E /* Debug */,
+				49D0095D29C42728000EBB5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
